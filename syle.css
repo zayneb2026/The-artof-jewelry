@@ -1,0 +1,236 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #58e3e3; /* Turquoise */
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #58e3e3; /* Turquoise pour le titre h1 */
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #ff007f; /* Rose fuchsia pour le titre h2 */
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical; /* Permet de redimensionner verticalement uniquement */
+}
+
+button {
+  background-color: #ff007f; /* Couleur rose fuchsia pour le bouton */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #cc0066; /* Couleur rose fuchsia plus foncée au survol */
+}
+
+.footer-content {
+  background-color: #58e3e3; /* Turquoise */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+.footer-content h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.footer-content textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical; /* Permet de redimensionner verticalement uniquement */
+}
+
+.footer-content button {
+  background-color: #ff007f; /* Couleur rose fuchsia pour le bouton */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.footer-content button:hover {
+  background-color: #cc0066; /* Couleur rose fuchsia plus foncée au survol */
+}
+
+
+.imagepiment img {
+    max-width: 50%;
+    height: auto;
+}
+
+footer {
+    background-color: #58e3e3; /* Turquoise */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical; /* Permet de redimensionner verticalement uniquement */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #d41a8d;
+}
+main {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #ff007f; /* Couleur rose fuchsia pour le titre h1 */
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #ff007f; /* Couleur rose fuchsia pour le titre h2 */
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical; /* Permet de redimensionner verticalement uniquement */
+}
+
+button {
+  background-color: #ff007f; /* Couleur rose fuchsia pour le bouton */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #cc0066; /* Couleur rose fuchsia plus foncée au survol */
+}
+/* Ajout de la bordure de perles autour du site */
+body {
+  background-color: #f2f2f2; /* Couleur de fond du site */
+  border: 10px solid transparent; /* Bordure transparente de 10px */
+  border-image: url('perle.png') 10 repeat; /* Utilisation de l'image 'perle.png' avec une largeur de 10px et une répétition sur tous les côtés */
+  border-image-outset: 10px; /* Espacement entre les perles et le contenu */
+}

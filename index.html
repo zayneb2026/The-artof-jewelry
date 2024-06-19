@@ -4,48 +4,203 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WS-CSS</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #58e3e3; /* Turquoise */
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        main {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .main-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #58e3e3; /* Turquoise pour le titre h1 */
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #ff007f; /* Rose fuchsia pour le titre h2 */
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical; /* Permet de redimensionner verticalement uniquement */
+        }
+
+        button {
+            background-color: #ff007f; /* Couleur rose fuchsia pour le bouton */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        button:hover {
+            background-color: #cc0066; /* Couleur rose fuchsia plus foncée au survol */
+        }
+
+        .footer-content {
+            background-color: #58e3e3; /* Turquoise */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            max-width: 600px;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+
+        .footer-content h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .footer-content textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        .footer-content button {
+            background-color: #ff007f; /* Couleur rose fuchsia pour le bouton */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .footer-content button:hover {
+            background-color: #cc0066; /* Couleur rose fuchsia plus foncée au survol */
+        }
+    </style>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a bref="">Home</a></li>
-                <li><a bref="">About</a></li>
-                <li><a bref="">Work</a></li>
-                <li><a bref="">Resume</a></li>
-                <li><a bref="">Contact</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Work</a></li>
+                <li><a href="">Resume</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <!--About-->
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <div class="main-content">
+            <h1>Bienvenue sur notre site</h1>
+            <p>Dans ce site vous pourrez explorer nos modèles de bijoux.</p>
+
+            <section>
+                <h2>Notre histoire</h2>
+                <p>
+                    Zayneb Hila est une jeune entrepreneure, CEO The Art of Jewelry.<br>
+                    Elle est passionnée par les bijoux depuis son enfance. <br>
+                    Elle a intégré un club d'entrepreneuriat qui l'a aidée à concevoir ce projet.<br>
+                </p>
+            </section>
+
+            <section>
+                <h2>La tortue de mer</h2>
+                <p>
+                    Découvrez notre magnifique bracelet orné de petits cristaux verts pastels et agrémenté d'un charm en forme de tortue dorée.<br>
+                    Ce bijou élégant et délicat est parfait pour ajouter une touche de sophistication et de nature à votre style.<br>
+                </p>
+                <img src="./bracelet tortue.jpg" alt="bracelet" width="250" height="250">
+            </section>
+
+            <section>
+                <h2>L'histoire des bijoux</h2>
+                <p>
+                    Les bijoux, remontant à la préhistoire, ont évolué à travers les civilisations anciennes, les époques médiévale et de la Renaissance, jusqu'aux mouvements artistiques du XXe siècle. Aujourd'hui, ils représentent une expression personnelle diversifiée, fusionnant tradition et modernité au sein d'une industrie mondiale.
+                </p>
+            </section>
+
+            <section>
+                <h2>Les inséparables</h2>
+                <div class="imagepiment">
+                    <p>
+                        Nouvelle collection pour l'été<br>
+                        Plongez dans une vague de chaleur avec notre ensemble de bijoux pimenté ! 🌶️✨<br>
+                        Ajoutez une touche épicée à votre style avec notre collier et nos boucles d'oreilles au motif de piment.<br>
+                        Ces pièces audacieuses sont le moyen idéal pour exprimer votre passion pour le piment tout en restant élégante. 🔥
+                    </p>
+                    <img src="./ensemble piment.jpg" alt="Ensemble piment" width="300" height="400">
+                </div>
+            </section>
+
+            <!-- Autres sections -->
+
+        </div>
     </main>
-    <footer></footer>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Laissez un commentaire</h3>
+            <form action="traitement_commentaire.php" method="post">
+                <textarea name="commentaire" placeholder="Écrivez votre commentaire ici"></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </footer>
 </body>
 </html>
-<!-- Incorrect img declaration  -->
-<img src="./logo.jpg" 
-<!-- Correct img declaration  -->
-<body>
-    <a name="TopOfThePage"> </a>
-    <h1>Notre histoire</h1>
-    <p>
-        The Art Of Jewelry est une entreprise 100 % <br />
-        tunisienne qui laisse la possibilité aux <br />
-        personnes de laisser cours à leurs propre créativité . <br />
-        Ils seront accompagnés d’un AI qui le conseilleront  des modifications . <br />
-    </p>
-    <img src="./photo profil.jpg" alt="Zayneb Hila" />
-    <p>
-      Zayneb hila est une jeune entrepreuneure , CEO The art of jewelry.<br />
-       Elle est passionnée par les bijoux depuis son enfance .<br />
-        Elle a intégré un club d'entreprenariat <br />
-        qui l'a aidé à consevoir ce projet.<br />
-      <br>
-    </p>
-    
